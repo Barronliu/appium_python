@@ -19,7 +19,7 @@ class Alltest():
     def __init__(self):
         global log, logger, resultPath
         self.caseListPath = os.path.join(readConfig.prjDir, "caseList.txt")
-        self.casePath = os.path.join(readConfig.prjDir, "testSet/")
+        self.casePath = os.path.join(readConfig.prjDir, "testSet")
         self.caseList = []
         self.myServer = AppiumServer()
         log = Log.MyLog.get_log()
